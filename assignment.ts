@@ -160,25 +160,15 @@ let favouritePlaces: string[] = [
   "korea",
   "saudia arabia",
 ];
-// console.log("array is", favouritePlaces);
-// let alphabeticalOrder = favouritePlaces.slice().sort();
-// console.log("sorted array", alphabeticalOrder);
-// console.log("original array is", favouritePlaces);
-// let reverseArray = favouritePlaces.slice().sort().reverse();
-// console.log("reverse array", reverseArray);
-// console.log("original array is", favouritePlaces);
-// let reversedOrder = favouritePlaces.reverse();
-// console.log("reversed order array", reversedOrder);
-// let againReversedOrder = reversedOrder.reverse();
-// console.log("again reverse the reversed order array", againReversedOrder);
-// againReversedOrder.sort();
-// console.log(
-//   "alphabetically order yhr again reverse the reversed order array",
-//   againReversedOrder
-// );
-// againReversedOrder.sort().reverse();
-// console.log("again reverse the reversed order array", againReversedOrder);
-
+console.log("array is", favouritePlaces);
+console.log("sorted array", favouritePlaces.slice().sort());
+console.log("original array is", favouritePlaces);
+console.log("reverse array", favouritePlaces.slice().sort().reverse());
+console.log("original array is", favouritePlaces);
+console.log("reversed order array", favouritePlaces.reverse());
+console.log("again reverse the reversed order array", favouritePlaces.reverse());
+console.log("alphabetically order yhr again reverse the reversed order array",favouritePlaces.sort());
+console.log("again reverse the reversed order array", favouritePlaces.reverse());
 // // question 19
 let GuestNames: string[] = ["hina", "sadia", "ammara", "bushra"];
 console.log(
